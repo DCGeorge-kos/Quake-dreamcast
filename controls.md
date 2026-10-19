@@ -28,4 +28,5 @@ Notes :
 
 * Original keyboard shorcuts from the PC version remain the same
 * Always run is set to ON
+* MadCatz gamepad : Z/C buttons = left/right trigger (default settings)
 * Mouse look is not inverted
