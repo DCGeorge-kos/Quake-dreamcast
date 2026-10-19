@@ -95,7 +95,7 @@ static void IN_Joystick(void)
 	static const unsigned	char	cvtbl[] = {
 #if 1
 	/* same code of keyboard */
-	0, /* C */
+	K_JOY4, /* C */
 	K_SPACE, /* B */
 	K_ENTER, /* A */
 	K_ESCAPE, /* START */
@@ -103,7 +103,7 @@ static void IN_Joystick(void)
 	K_DOWNARROW, /* DOWN */
 	K_LEFTARROW, /* LEFT */
 	K_RIGHTARROW, /* RIGHT */
-	0, /* Z */
+	K_JOY1, /* Z */
 	K_JOY2, /* Y */
 	K_JOY3, /* X */
 	0, /* D */
