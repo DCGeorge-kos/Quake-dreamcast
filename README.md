@@ -2,6 +2,7 @@ Here is the starting point for this project :
 
 https://github.com/dreameatergames/nuquake_enhanced/releases/tag/alpha_0.4.0
 
+Tested and working on real hardware (ODE + GDMenu).
 All credits go to authors listed below.
 
 Original README :
