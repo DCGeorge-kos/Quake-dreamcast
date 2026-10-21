@@ -207,10 +207,10 @@ void VID_Aspect_f(void) {
     return;
 
   if (atoi(Cmd_Argv(1))) {
-    /* Widescreen */
+    /* Widescreen 16:9 display */
     vid.aspect = ((float)853.0 / (float)480.0) * (320.0 / 240.0);
   } else {
-    /* 4:3 */
+    /* 4:3 display for CRT TVs and vintage PC monitors */
     vid.aspect = ((float)vid.height / (float)vid.width) * (320.0 / 240.0);
     //vid.aspect = 4.0f/3.0f;
   }
